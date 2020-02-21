@@ -1,0 +1,175 @@
+{
+  "defaultSeverity": "warning",
+  "rules": {
+    "arrow-return-shorthand": true,
+    "ban": false,
+    "callable-types": true,
+    "class-name": true,
+    "component-class-suffix": true,
+    "component-selector": [
+      true,
+      "element",
+      [],
+      "kebab-case"
+    ],
+    "curly": true,
+    "deprecation": {
+      "severity": "warn"
+    },
+    "directive-class-suffix": true,
+    "directive-selector": [
+      true,
+      "attribute",
+      [],
+      "camelCase"
+    ],
+    "forin": true,
+    "no-submodule-imports": [
+      true,
+      "@angular/common/http",
+      "@angular/core/testing",
+      "@angular/fire/database",
+      "@angular/material/autocomplete",
+      "@angular/material/badge",
+      "@angular/material/bottom-sheet",
+      "@angular/material/button-toggle",
+      "@angular/material/button",
+      "@angular/material/card",
+      "@angular/material/checkbox",
+      "@angular/material/chips",
+      "@angular/material/core",
+      "@angular/material/datepicker",
+      "@angular/material/dialog",
+      "@angular/material/divider",
+      "@angular/material/expansion",
+      "@angular/material/form-field",
+      "@angular/material/grid-list",
+      "@angular/material/icon",
+      "@angular/material/input",
+      "@angular/material/list",
+      "@angular/material/menu",
+      "@angular/material/paginator",
+      "@angular/material/progress-bar",
+      "@angular/material/progress-spinner",
+      "@angular/material/radio",
+      "@angular/material/schematics",
+      "@angular/material/select",
+      "@angular/material/sidenav",
+      "@angular/material/slide-toggle",
+      "@angular/material/slider",
+      "@angular/material/snack-bar",
+      "@angular/material/sort",
+      "@angular/material/stepper",
+      "@angular/material/table",
+      "@angular/material/tabs",
+      "@angular/material/toolbar",
+      "@angular/material/tooltip",
+      "@angular/material/tree",
+      "@angular/platform-browser",
+      "firebase/database",
+      "firebase/firestore",
+      "rxjs/operators"
+    ],
+    "interface-name": false,
+    "interface-over-type-literal": true,
+    "jsdoc-format": true,
+    "label-position": true,
+    "max-classes-per-file": [
+      true,
+      5
+    ],
+    "member-access": false,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "static-field",
+          "instance-field",
+          "static-method",
+          "instance-method"
+        ]
+      }
+    ],
+    "no-any": false,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-super": true,
+    "no-duplicate-variable": true,
+    "no-empty": false,
+    "no-empty-interface": true,
+    "no-eval": true,
+    "no-floating-promises": true,
+    "no-forward-ref": true,
+    "no-inferrable-types": [
+      true,
+      "ignore-params"
+    ],
+    "no-input-rename": false,
+    "no-internal-module": true,
+    "no-misused-new": true,
+    "no-non-null-assertion": true,
+    "no-redundant-jsdoc": true,
+    "no-output-rename": false,
+    "no-require-imports": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": false,
+    "no-string-throw": true,
+    "no-switch-case-fall-through": true,
+    "no-unnecessary-initializer": true,
+    "no-unused-expression": true,
+    "no-var-keyword": true,
+    "no-var-requires": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": [
+      true,
+      {
+        "grouped-imports": true,
+        "named-imports-order": "lowercase-last"
+      }
+    ],
+    "prefer-conditional-expression": false,
+    "prefer-const": true,
+    "radix": true,
+    "switch-default": true,
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "typedef": [
+      false,
+      "call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration"
+    ],
+    "use-life-cycle-interface": true,
+    "use-pipe-transform-interface": true,
+    "unified-signatures": true,
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "ban-keywords"
+    ]
+  },
+  "rulesDirectory": [
+    "node_modules/codelyzer"
+  ],
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier"
+  ]
+}

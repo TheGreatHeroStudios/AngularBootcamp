@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "commonjs",
+    "noUnusedLocals": false,
+    "outDir": "out-e2e",
+    "target": "es5",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+  "include": [
+    "**/*.e2e-spec.ts",
+    "**/*.d.ts"
+  ],
+  "exclude": [
+    "*-SKIP-*",
+    "AOT-*",
+    "More",
+    "SKIP-*",
+    "bazel-*",
+    "node_modules"
+  ],
+  "extends": "./tsconfig.json"
+}

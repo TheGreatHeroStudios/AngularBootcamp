@@ -1,0 +1,31 @@
+{
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "genDir": "aot",
+    "skipMetadataEmit": true
+  },
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "ESNext",
+    "outDir": "build",
+    "target": "ES2015",
+    "types": []
+  },
+  "exclude": [
+    "**/*.e2e-spec.ts",
+    "**/*.spec.ts",
+    "**/test.ts",
+    "**/tests.ts",
+    "e2e-kit.ts",
+    "**/*-SKIP-*",
+    "AOT-*",
+    "More",
+    "SKIP-*",
+    "bazel-*",
+    "node_modules"
+  ],
+  "extends": "./tsconfig.json",
+  "include": [
+    "**/*.ts"
+  ]
+}

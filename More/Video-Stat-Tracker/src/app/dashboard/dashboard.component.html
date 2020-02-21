@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col s12 m6 l3">
+    <vst-top-list
+      [topList]="videoList | async"
+      [selectedVideo]="selectedVideo | async"
+      (videoChanged)="videoChanged($event)"
+    ></vst-top-list>
+  </div>
+  <div class="col s12 m6 l6">
+    <div class="row">
+      <div class="col s12">
+        <vst-video-container
+          [currentVideo]="selectedVideo | async"
+        ></vst-video-container>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <vst-views-breakdown></vst-views-breakdown>
+      </div>
+    </div>
+  </div>
+  <div class="col s12 m12 l3">
+    <vst-views-filter></vst-views-filter>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<section class="card">
+  <div class="card-content">
+    <div class="card-title">Company Data</div>
+
+    <pre>{{ company | async | json }}</pre>
+
+    <button class="btn" (click)="showAgain = !showAgain">
+      Show company again
+    </button>
+
+    <div *ngIf="showAgain">
+      <pre>{{ company | async | json }}</pre>
+      <p>(without reloading from server)</p>
+    </div>
+  </div>
+</section>

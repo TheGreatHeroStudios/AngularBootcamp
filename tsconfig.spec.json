@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "../out-tsc/spec",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+  "extends": "./tsconfig.json",
+  "include": [
+    "**/test.ts",
+    "**/tests.ts",
+    "**/polyfills.ts",
+    "**/*.spec.ts",
+    "**/*.d.ts"
+  ],
+  "exclude": [
+    "*-SKIP-*",
+    "AOT-*",
+    "More",
+    "SKIP-*",
+    "bazel-*",
+    "node_modules"
+  ]
+}

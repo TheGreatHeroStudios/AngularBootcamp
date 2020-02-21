@@ -1,0 +1,15 @@
+SKIP-publish
+SKIP-create-bundle
+AOT-*
+.vscode
+demo-data
+tsconfig.*
+dist
+minimal_lib/*.js
+minimal_lib/jasmine/jasmine.css
+minimal_lib/materialize/materialize.css
+angular.json
+package.json
+tslint*.json
+polyfills.ts
+bazel-*
