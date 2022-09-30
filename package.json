@@ -18,7 +18,7 @@
     "@ngrx/store": "8.6.0",
     "@ngrx/store-devtools": "8.6.0",
     "@oasisdigital/live-server": "^1.3.2",
-    "d3": "^4.13.0",
+    "d3": "^7.6.1",
     "firebase": "^7.8.1",
     "globby": "^11.0.0",
     "jasmine": "^3.5.0",
